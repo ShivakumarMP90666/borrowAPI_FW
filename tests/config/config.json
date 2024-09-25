@@ -1,0 +1,18 @@
+{
+  "base_url": "https://borrowtest.hltsoftware.com",
+  "wishlist_endpoints": {
+    "create_wishlist": "/api/Wishlist",
+    "get_wishlist": "/api/Wishlist/{wishListId}",
+    "delete_wishlist": "/api/Wishlist/{wishListId}",
+    "add_item_to_wishlist": "/api/Wishlist/Item",
+    "get_item_from_wishlist": "/api/Wishlist/Item/{wishListId}/{itemId}",
+    "delete_item_from_wishlist": "/api/Wishlist/Item/{itemId}",
+    "is_item_wishlisted": "/api/Wishlist/isWishlisted/{itemId}/{wishListId}"
+  },
+  "user_endpoints": {
+    "create_user": "/api/users",
+    "get_user": "/api/users/{Id}",
+    "delete_user": "/api/users",
+    "update_user": "/api/users"
+  }
+}
